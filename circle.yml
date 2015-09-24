@@ -1,0 +1,9 @@
+test:
+  override:
+    - python synchronize.py --dry-run thaaaaaats.science zonefile.txt
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - python synchronize.py --dry-run thaaaaaats.science zonefile.txt
