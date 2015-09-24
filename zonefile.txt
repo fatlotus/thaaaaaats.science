@@ -1,0 +1,8 @@
+# zonefile.txt
+
+# show a basic help website for users
+@ CNAME fatlotus.github.io
+www CNAME fatlotus.com
+
+# a test zone
+test CNAME uchicago.edu
