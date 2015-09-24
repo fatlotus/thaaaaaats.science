@@ -14,7 +14,7 @@ www CNAME fatlotus.com jarcher@uchicago.edu
 
 marketplace A 216.239.32.21 jarcher@uchicago.edu
 marketplace A 216.239.34.21 jarcher@uchicago.edu
-marketplace A	216.239.36.21 jarcher@uchicago.edu
+marketplace A 216.239.36.21 jarcher@uchicago.edu
 marketplace A 216.239.38.21 jarcher@uchicago.edu
 marketplace AAAA 2001:4860:4802:32::15 jarcher@uchicago.edu
 marketplace AAAA 2001:4860:4802:34::15 jarcher@uchicago.edu
