@@ -8,11 +8,15 @@
 @ CNAME fatlotus.github.io jarcher@uchicago.edu
 www CNAME fatlotus.com jarcher@uchicago.edu
 
-# Add a test domain to measure replication delay.
+# The App Engine version (ca. Aut 2015) of Marketplace.
 
-test-domain CNAME uchicago.edu jarcher@uchicago.edu
-
-# Track the latest version of Marketplace to see if App Engine works
-
-marketplace CNAME hosted-caravel.appspot.com jarcher@uchicago.edu
 7beve7kgahrg.marketplace CNAME gv-fawidyalktjjmu.dv.googlehosted.com jarcher@uchicago.edu
+
+marketplace A 216.239.32.21 jarcher@uchicago.edu
+marketplace A 216.239.34.21 jarcher@uchicago.edu
+marketplace A 216.239.36.21 jarcher@uchicago.edu
+marketplace A 216.239.38.21 jarcher@uchicago.edu
+marketplace AAAA 2001:4860:4802:32::15 jarcher@uchicago.edu
+marketplace AAAA 2001:4860:4802:34::15 jarcher@uchicago.edu
+marketplace AAAA 2001:4860:4802:36::15 jarcher@uchicago.edu
+marketplace AAAA 2001:4860:4802:38::15 jarcher@uchicago.edu
