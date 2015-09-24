@@ -16,8 +16,8 @@ def parse(buffer):
     example:
     
       # a comment
-      a CNAME example.com
-      b A example.com
+      a CNAME example.com owner-a@uchicago.edu
+      b A example.com owner-b@uchicago.edu
     
     results in:
       
@@ -32,12 +32,13 @@ def parse(buffer):
         if not line:
             continue
 
-        subdomain, record_type, content = line.split(" ")
+        subdomain, record_type, content, owner = line.split(" ")
 
         validation = {
             r'^(CNAME|A)$': record_type,
             r'^(@|[a-zA-Z0-9]+)$': subdomain,
-            r'^.+$': content
+            r'^.+$': content,
+            r'^([^@]+)@uchicago\.edu$': owner,
         }
 
         for pattern, value in validation.items():

@@ -1,8 +1,13 @@
 # zonefile.txt
+#
+# The contents of this file are automatically replicated to the
+# thaaaaaats.science CloudFlare domain.
 
-# show a basic help website for users
-@ CNAME fatlotus.github.io
-www CNAME fatlotus.com
+# When visiting the root, display an unhelpful Github Pages site.
 
-# a test zone
-uchicago CNAME uchicago.edu
+@ CNAME fatlotus.github.io jarcher@uchicago.edu
+www CNAME fatlotus.com jarcher@uchicago.edu
+
+# Add a test domain to measure replication delay.
+
+test-domain CNAME uchicago.edu jarcher@uchicago.edu
