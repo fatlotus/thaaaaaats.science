@@ -35,7 +35,7 @@ def parse(buffer):
         subdomain, record_type, content, owner = line.split(" ")
 
         validation = {
-            r'^(CNAME|A)$': record_type,
+            r'^(CNAME|A|AAAA)$': record_type,
             r'^(@|[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*)$': subdomain,
             r'^.+$': content,
             r'^([^@]+)@uchicago\.edu$': owner,
