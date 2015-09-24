@@ -5,4 +5,4 @@
 www CNAME fatlotus.com
 
 # a test zone
-test CNAME uchicago.edu
+uchicago CNAME uchicago.edu
