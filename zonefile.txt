@@ -15,3 +15,4 @@ test-domain CNAME uchicago.edu jarcher@uchicago.edu
 # Track the latest version of Marketplace to see if App Engine works
 
 marketplace CNAME hosted-caravel.appspot.com jarcher@uchicago.edu
+7beve7kgahrg.marketplace CNAME gv-fawidyalktjjmu.dv.googlehosted.com jarcher@uchicago.edu
